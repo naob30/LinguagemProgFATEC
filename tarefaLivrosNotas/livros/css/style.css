@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #404467;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------- */
+/*                                             INDEX                                                  */
+/* -------------------------------------------------------------------------------------------------- */
+
+.btn {
+    border: 2px #404467 solid;
+    color: white;
+    background-color: #404467;
+    
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px #404467 solid;
+    color: #404467;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #404467; */
+    /* height: 65px; */
+    margin-top: 20px;
+}
+
+table {
+    border: 3px #404467 solid;
+}
+
+table td{
+    padding: 10px;
+    border-right: 2px #404467 solid;
+    border-top: 2px #404467 solid;
+}
+
+table th{
+    padding: 10px;
+    border-right: 2px #404467 solid;
+    border-bottom: 2px #404467 solid;
+}
+
+table th:last-child {
+    border-right: none;
+}
+
+table td:last-child {
+    border-right: none;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+/*                                      CADASTRO DO LIVRO                                             */
+/* -------------------------------------------------------------------------------------------------- */
+
+.banner {
+    margin: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 800px;
+    border: 2px #404467 solid;
+}
+
+.card-header {
+    border-bottom: 2px #404467 solid;
+    color: #404467;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100px;
+    border: 1px #000000 solid;
+}
+
+.ano {
+    width: 100px;
+}
+
+.input-group-text,
+.form-select {
+    border: 1px #000000 solid;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+/*                                      PESQUISAR LIVRO                                               */
+/* -------------------------------------------------------------------------------------------------- */
+
+.buscarLivro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+/*                                   PESQUISAR CÓDIGO LIVRO                                           */
+/* -------------------------------------------------------------------------------------------------- */
+
+.buscarCodigo {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btnVoltar2 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------- */
+/*                                              ALERTA                                                */
+/* -------------------------------------------------------------------------------------------------- */
+#mensagem {
+    display: none;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+#mensagem.show {
+    display: block;
+    opacity: 1;
+}
+#mensagem.hide {
+    opacity: 0;
+    transition: opacity 1s;
+}

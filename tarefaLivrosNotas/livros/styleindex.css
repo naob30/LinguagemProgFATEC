@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #404467;
+    height: 100px;
+    width: 100vw;
+    margin-bottom: 27px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #404467;
+    height: 65px;
+    width: 100vw;
+    margin-top: -45px;
+}
+
+.card {
+    width: 400px;
+    margin-bottom: 90px;
+    border: 3px #404467 solid;
+    background-color: transparent;
+}
+
+.btCadastrar {
+    background-color: #404467; 
+    border: 2px #404467 solid;
+}
+
+.btCadastrar:hover {
+    color: #404467;
+    background-color: transparent; 
+    border: 2px #404467 solid;
+}
+
+.banner img {
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 200px;
+    z-index: -1;
+}
